@@ -1,0 +1,90 @@
+:root {
+    --main-bg-color: #F5F5F5;
+    --element-bg-color: #E0E7FF;
+    --button-color: #4CAF50;
+    --text-color: #333333;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 30px;
+    font-family: Georgia;
+}
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+.container{
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px 30px;
+    width: 700px;
+    background-color: var(--element-bg-color);
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    outline: none;
+    margin: 5px;
+    padding: 15px;
+    background-color: var(--button-color);
+    border: 1px solid var(--text-color);
+    list-style-type: none;
+    box-shadow: inset 2px 2px 5px var(--element-bg-color),inset -2px -2px 5px var(--element-bg-color);
+    transition: box-shadow 0.5s ease-in-out;
+    border-radius: 30px;
+    font-size: 0.7rem;
+}
+.nav-item:hover{
+    box-shadow: inset 2px 2px 5px var(--text-color),inset -2px -2px 5px var(--text-color);
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.text-block{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.dialog-box{
+    margin-left: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 300px;
+    width: 250px;
+    background: var(--text-color);
+    color: var(--main-bg-color);
+}
+.dialog-box p{
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+.cookie{
+    font-size: 50px;
+    padding: 10px;
+}
+.close{
+    font-size: 20px;
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto;
+}
