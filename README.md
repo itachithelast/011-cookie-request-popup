@@ -1,4 +1,4 @@
-# 011-cookie-request-popup
+# cookie-request-popup
 
 Based on the idea from:
 
